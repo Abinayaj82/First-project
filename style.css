@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+
+}
+.container,.thanku_container{
+    width:300px;
+    height:300px;
+    border:1px solid black;
+    margin-top:3%;
+    background-color: hsl(213, 19%, 18%);
+    color:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container,h2{
+    margin-top:30px;
+}
+p{
+    font-size:14px;
+    margin-top:20px;
+}
+.ratings{
+    margin-top:20px;
+}
+.container img{
+    background-color: #2c3e50;
+    border-radius:50%;
+    padding:7px 7px;
+}
+.number{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    border:none;
+    margin-right:17px;
+    background-color:  #2c3e50;
+    cursor:pointer;
+    color:white;
+    transition: 3ms ease;
+    margin-left:3px;
+}
+.number:hover{
+    background-color:hsl(25, 97%, 53%);
+}
+.number:focus{
+    background-color:red;
+}
+.submit{
+    width:100%;
+    margin-top:20px;
+    border-radius:20px;
+    padding:10px;
+    border:none;
+    color:hsl(25, 97%, 53%);
+    cursor:pointer;
+}
+.submit:hover{
+    background-color:hsl(25, 97%, 53%);
+    color:white;
+}
+.rating_text{
+    background-color:hsl(216, 12%, 54%);
+    padding:10px;
+    border-radius:20px;
+    text-align:center;
+    width:60%;
+    margin-left:10px;
+}
+.thanku_image{
+    margin-left:50px;
+}
+.heading{
+    margin-top:10px;
+    margin-right:60px;
+    text-align:center;
+}
+.thanku_para{
+    font-size:12px;
+    margin-top:1px;
+    margin-right:40px;
+    text-align: center;
+}
+.hidden{
+    display:none;
+}
+.thanku_container{
+    margin-top:50px;
+    margin-left:50px;
+
+}
+.rate_again{
+    margin-top:20px;
+    cursor:pointer;
+    padding:6px;
+    border:none;
+    border-radius:20px;
+    width:100%;
+    margin-left:-26px;
+    color:hsl(25, 97%, 53%);
+}
+.rate_again:hover{
+    background-color:hsl(25, 97%, 53%);
+    color:white;
+}
+
+
+@media (min-width: 400px) {
+    .container, .thanku_container{
+        max-width: 400px;
+    }
+}
